@@ -1,0 +1,28 @@
+{
+  "name": "rock-paper-scissor",
+  "version": "1.0.0",
+  "description": "classical hand game, but against your computer",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "test",
+    "start": "serve ./src"
+  },
+  "dependencies": {
+    "eslint": "7.19.0",
+    "serve": "11.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maranyil/rock-paper-scissor.git"
+  },
+  "keywords": [
+    "javascript",
+    "game"
+  ],
+  "author": "Mara Mulato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maranyil/rock-paper-scissor/issues"
+  },
+  "homepage": "https://github.com/maranyil/rock-paper-scissor#readme"
+}

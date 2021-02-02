@@ -1,2 +1,5 @@
-# rock-paper-scissor
-Rock, paper, scissor game, building with JavaScript
+# Rock, paper, scissors
+
+Rock, paper, scissors classic game, but it's you, against your computer :)
+
+
