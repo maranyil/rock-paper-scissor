@@ -6,12 +6,12 @@
 
  section {
      height: 100vh;
-     background-color: #344BFA;
+     background-color: #232027;
      font-family: monospace;
  }
 
  .score {
-     color: aliceblue;
+     color: azure;
      height: 20vh;
      display: flex;
      justify-content: space-around;
@@ -29,27 +29,38 @@
  }
 
  .intro {
-     color: aliceblue;
-     height: 58vh;
+     color: azure;
+     height: 50vh;
      display: flex;
      flex-direction: column;
      align-items: center;
      justify-content: space-around;
+     transition: opacity 0.5s ease;
  }
 
  .intro h1 {
      font-size: 50px;
  }
 
- .intro button {
+ .intro button,
+ .match button {
      width: 150px;
      height: 50px;
+     font-family: 'PT Mono', monospace;
      background: none;
      border: none;
      color: azure;
      font-size: 20px;
-     background: #facb38;
+     background: #FACB38;
      border-radius: 4px;
+     cursor: pointer;
+ }
+
+ .intro button:hover,
+ .match button:hover {
+     background-color: transparent;
+     color: azure;
+     border: 2px solid #FACB38;
  }
 
  .match {
@@ -57,4 +68,32 @@
      top: 50%;
      left: 50%;
      transform: translate(-50%, -50%);
+     transition: opacity 0.5s ease 0.5s;
+ }
+
+ .winner {
+     color: azure;
+     text-align: center;
+     font-size: 50px;
+ }
+
+ .hands,
+ .options {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .player-hand {
+     transform: rotateY(180deg);
+ }
+
+ div.fadeOut {
+     opacity: 0;
+     pointer-events: none;
+ }
+
+ div.fadeIn {
+     opacity: 1;
+     pointer-events: all;
  }
