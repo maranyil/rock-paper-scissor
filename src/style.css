@@ -35,7 +35,7 @@
      flex-direction: column;
      align-items: center;
      justify-content: space-around;
-     opacity: 0;
+     transition: opacity 0.5s ease;
  }
 
  .intro h1 {
@@ -46,6 +46,7 @@
  .match button {
      width: 150px;
      height: 50px;
+     font-family: 'PT Mono', monospace;
      background: none;
      border: none;
      color: azure;
@@ -55,7 +56,7 @@
      cursor: pointer;
  }
 
- .intro button,
+ .intro button:hover,
  .match button:hover {
      background-color: transparent;
      color: azure;
@@ -67,6 +68,7 @@
      top: 50%;
      left: 50%;
      transform: translate(-50%, -50%);
+     transition: opacity 0.5s ease 0.5s;
  }
 
  .winner {
@@ -93,5 +95,5 @@
 
  div.fadeIn {
      opacity: 1;
-     pointer-events: alls;
+     pointer-events: all;
  }
