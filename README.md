@@ -14,7 +14,7 @@ I made my own version, with mobile design and other drawings.
 :seedling: It helped me to practice my CSS skills and improve my javascript writing. 
 
 ### Check it out
-You can play it in [Heroku](https://maranyil-r-p-s.herokuapp.com/)
+You can play it at [Heroku](https://maranyil-r-p-s.herokuapp.com/)
 
 Enjoy! :rocket:
 
